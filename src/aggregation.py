@@ -39,7 +39,7 @@ class Aggregation():
         aggregated_updates = 0
         cur_global_params = parameters_to_vector(
             [global_model.state_dict()[name] for name in global_model.state_dict()]).detach()
-       if self.args.aggr=='avg' or self.args.aggr == 'rlr' or self.args.aggr == 'lockdown':    
+        if self.args.aggr=='avg' or self.args.aggr == 'rlr' or self.args.aggr == 'lockdown':    
             aggregated_updates = self.agg_avg(agent_updates_dict)
 
         elif self.args.aggr == 'alignins':
