@@ -4,7 +4,7 @@
 
 If you have any issues using this repo, feel free to contact
 
-The proposed aggregation rule FedCODA is placed in `src/aggregation.py`, and you can easily take it and integrate AlignIns with your code.
+The proposed aggregation rule FedCODA is placed in `src/aggregation.py`, and you can easily take it and integrate FedCODA with your code.
 
 ### Environment
 
@@ -53,4 +53,4 @@ Here,
 For other arguments, you can check the `federated.py` file where the detailed explanation is presented.
 
 ## Acknowledgment
-Our code is partially constructed on https://github.com/git-disl/Lockdown, big thanks to their contribution!
+Our code is partially constructed on https://github.com/git-disl/Lockdown 、 https://github.com/JiiahaoXU/AlignIns, big thanks to their contribution!
